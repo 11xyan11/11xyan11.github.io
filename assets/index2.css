@@ -1,0 +1,50 @@
+html,body,#app {
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    position: fixed;
+    background-image: url(/raffler/assets/bg.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 0;
+    margin: 0
+}
+
+.background-mask[data-v-ad26613d] {
+    width: 100%;
+    height: 100%;
+    opacity: 20%;
+    background-color: #fff;
+    position: fixed;
+    z-index: -1
+}
+
+.title-pic[data-v-ad26613d] {
+    position: absolute;
+    top: 15%;
+    left: calc(50% - 320px)
+}
+
+.raffle-button[data-v-ad26613d] {
+    position: absolute;
+    top: 80%;
+    left: calc(50% - 100px);
+    width: 220px;
+    height: 80px;
+    border-radius: 10px;
+    background-color: #f6da4b;
+    border: none;
+    font-size: 30px;
+    font-weight: 700;
+    cursor: pointer
+}
+
+.selected-num[data-v-ad26613d] {
+    position: absolute;
+    top: 30%;
+    left: calc(50% - 360px);
+    cursor: pointer;
+    display: flex
+}
